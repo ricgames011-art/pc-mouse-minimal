@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PC Mouse</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><span class="mark">↖</span><div><b>PC Mouse</b><small>Minimal</small></div></header>
+  <label class="toggle"><span>Activar panel</span><input id="enabled" type="checkbox"></label>
+  <div class="line"><label for="speed">Sensibilidad</label><output id="speedOut">1,5×</output></div>
+  <input id="speed" type="range" min="0.5" max="3" step="0.1" value="1.5">
+  <div class="line"><label for="size">Tamaño del cursor</label><output id="sizeOut">22 px</output></div>
+  <input id="size" type="range" min="16" max="36" step="2" value="22">
+  <p>Desliza en el panel flotante para mover el cursor. Mantén pulsado el botón izquierdo para arrastrar.</p>
+  <small class="note">Funciona en el contenido de páginas web, no en los menús del navegador ni en otras aplicaciones.</small>
+  <script src="popup.js"></script>
+</body></html>

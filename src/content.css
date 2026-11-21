@@ -1,0 +1,12 @@
+#pcm-root{position:fixed!important;z-index:2147483647!important;right:14px!important;bottom:18px!important;width:174px!important;color:#f7f7f7!important;font:12px/1.2 system-ui,sans-serif!important;user-select:none!important;-webkit-user-select:none!important;touch-action:none!important}
+#pcm-root *{box-sizing:border-box!important}
+#pcm-head{height:27px;background:rgba(20,22,26,.94);border:1px solid rgba(255,255,255,.24);border-radius:10px 10px 0 0;display:flex;align-items:center;justify-content:space-between;padding:0 9px;touch-action:none}
+#pcm-head b{font-size:10px;letter-spacing:1px;font-weight:600}
+#pcm-hide{border:0!important;background:transparent!important;color:white!important;font-size:17px!important;padding:0 3px!important}
+#pcm-pad{height:105px;background:rgba(35,38,44,.91);border:1px solid rgba(255,255,255,.24);border-top:0;display:grid;place-items:center;touch-action:none}
+#pcm-pad span{color:#c6cbd2;pointer-events:none;font-size:11px}
+#pcm-actions{display:flex;gap:4px;padding:5px;background:rgba(20,22,26,.94);border:1px solid rgba(255,255,255,.24);border-top:0;border-radius:0 0 10px 10px}
+#pcm-actions button{flex:1;min-width:0;border:1px solid rgba(255,255,255,.2)!important;border-radius:6px!important;background:#343941!important;color:white!important;padding:7px 2px!important;font:11px system-ui!important;touch-action:manipulation}
+#pcm-actions button:active,#pcm-actions button.active{background:#59616d!important}
+#pcm-cursor{position:fixed!important;z-index:2147483646!important;left:50vw;top:40vh;width:22px;height:22px;pointer-events:none!important;filter:drop-shadow(1px 1px 1px #000)!important}
+#pcm-root.hidden{display:none!important}

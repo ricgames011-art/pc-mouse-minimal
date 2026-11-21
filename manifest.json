@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "PC Mouse Minimal",
+  "short_name": "PC Mouse",
+  "version": "1.1.0",
+  "description": "Panel táctil minimalista que simula un puntero de ratón dentro de páginas web.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "PC Mouse"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "src/content.js"
+      ],
+      "css": [
+        "src/content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
